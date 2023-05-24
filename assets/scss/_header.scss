@@ -1,0 +1,96 @@
+#header {
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  background-color: black;
+  color: white;
+  height: 46px;
+  width: 100%;
+  z-index: 1;
+}
+
+#nav {
+  display: inline-block;
+}
+
+/* Cấp 1 */
+
+#nav,
+.subnav {
+  list-style-type: none;
+}
+
+#nav > li {
+  display: inline-block;
+}
+
+#nav li {
+  position: relative;
+}
+
+#nav > li > a {
+  color: white;
+  text-transform: uppercase;
+}
+
+#nav li a {
+  text-decoration: none;
+  line-height: 46px;
+  padding: 0 24px;
+  display: inline-block;
+}
+
+#nav li:hover .subnav {
+  display: block;
+}
+
+/* Kết Hợp --> Hai đoạn code có tính chất giống nhau */
+
+#nav > li:hover > a,
+#nav .subnav li:hover {
+  background-color: #ccc;
+  color: black;
+}
+
+/* Cấp 2 */
+
+#nav .subnav {
+  display: none;
+  top: 100%;
+  left: 0;
+  min-width: 160px;
+  position: absolute;
+  background-color: #fff;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.541);
+}
+
+/* #nav .subnav li {
+      display: block;
+  } */
+
+#nav .subnav a {
+  color: black;
+  padding: 0 16px;
+  line-height: 38px;
+}
+
+#nav .nav-arrow-down {
+  font-size: 14px;
+}
+
+#header .search-btn {
+  float: right;
+  padding: 0 22px;
+}
+
+#header .search-btn:hover {
+  background-color: #f44336;
+  cursor: pointer;
+}
+
+#header .search-icon {
+  color: #fff;
+  font-size: 20px;
+  line-height: 46px;
+}

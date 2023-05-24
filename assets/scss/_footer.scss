@@ -1,0 +1,30 @@
+#footer {
+  padding: 64px 16px;
+  text-align: center;
+}
+
+#footer .socials-list {
+  font-size: 24px;
+}
+
+#footer .socials-list a {
+  text-decoration: none;
+  color: #000;
+  opacity: 0.6;
+}
+
+#footer .copyright a:hover,
+#footer .socials-list a:hover {
+  opacity: 0.4;
+}
+
+#footer .copyright {
+  margin: 15px 0;
+  font-size: 15px;
+  color: #000;
+  opacity: 0.6;
+}
+
+#footer .copyright a {
+  color: #000;
+}

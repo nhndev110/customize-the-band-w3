@@ -1,0 +1,231 @@
+#main {
+  position: relative;
+}
+
+/* Đã Kết Hợp Rồi */
+
+/* #nav .subnav li:hover {
+      background-color: #ccc;
+      color: black;
+  } */
+
+#slider {
+  position: relative;
+  margin-top: 46px;
+  padding-top: 50%;
+  background: url("https://www.w3schools.com/w3images/ny.jpg") top center /
+    cover no-repeat;
+  font-size: 15px;
+}
+
+#slider .text-content {
+  position: absolute;
+  bottom: 47px;
+  color: #fff;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+#slider .text-content .text-heading {
+  margin-bottom: 25px;
+  font-weight: 500;
+  font-size: 24px;
+}
+
+#slider .text-content .text-description {
+  line-height: 1.5;
+  font-weight: 700;
+  text-shadow: 0 0 15px rgba(253, 253, 253, 0.733);
+  font-size: 15px;
+}
+
+#content {
+}
+
+#content .content-section {
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 64px 0 112px;
+}
+
+.content-section .section-heading {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 400;
+  margin-bottom: 25px;
+  letter-spacing: 4px;
+}
+
+.content-section .section-sub-heading {
+  text-align: center;
+  font-size: 15px;
+  opacity: 0.6;
+  font-style: italic;
+  font-weight: 400;
+}
+
+.content-section .about-text {
+  text-align: justify;
+  font-size: 15px;
+  line-height: 1.5;
+  margin-top: 15px;
+}
+
+#content .member-list {
+  margin-top: 48px;
+}
+
+#content .member-name {
+  font-size: 15px;
+}
+
+#content .member-img {
+  margin-top: 15px;
+  width: 154px;
+  border-radius: 4px;
+}
+
+/* Tuor Section */
+
+.tour-section {
+  background-color: #000;
+}
+
+.ticket-list {
+  background-color: white;
+  margin-top: 40px;
+  list-style: none;
+}
+
+.ticket-list li {
+  font-size: 15px;
+  padding: 11px 16px;
+  border-bottom: 1px solid #ddd;
+  color: #757575;
+}
+
+.ticket-list .sold-out {
+  background-color: #f44336;
+  padding: 3px 8px;
+  margin-left: 16px;
+  font-size: 15px;
+}
+
+.ticket-list .quantity {
+  float: right;
+  width: 24px;
+  height: 24px;
+  background: #000;
+  color: #fff;
+  border-radius: 50%;
+  line-height: 24px;
+  margin: -3px;
+}
+
+/* place */
+
+.places-list {
+  margin-top: 32px;
+}
+
+.place-img {
+  width: 100%;
+  display: block;
+}
+
+.place-img:hover {
+  opacity: 0.6;
+}
+
+.place-body {
+  background-color: #fff;
+  padding: 16px;
+  font-size: 15px;
+}
+
+.place-heading {
+  font-size: 15px;
+}
+
+.place-time {
+  margin-top: 15px;
+  opacity: 0.5;
+}
+
+.place-desc {
+  margin-top: 15px;
+  line-height: 1.4;
+}
+
+/* contact form */
+
+.contact-content {
+  margin-top: 47px;
+}
+
+.contact-info {
+  font-size: 18px;
+}
+
+.contact-info i[class*="ti-"] {
+  width: 30px;
+  display: inline-block;
+  line-height: 1.5;
+}
+
+.contact-form {
+  font-size: 15px;
+}
+
+.contact-form .form-control {
+  padding: 10px;
+  border: 1px solid #ccc;
+  width: 100%;
+  outline-color: rgb(78, 3, 3);
+}
+
+.contact-form .contact-btn {
+  float: right;
+  border: 0 solid #000;
+  background-color: #000;
+  color: #fff;
+  padding: 11px 15px;
+  font-size: 15px;
+}
+
+.contact-btn:hover {
+  background-color: #ccc;
+  color: black;
+  cursor: pointer;
+}
+
+/* Map section */
+.map-section img {
+  margin-top: 64px;
+  width: 100%;
+}
+
+/* #knot-section {    
+    position: fixed;
+    box-shadow: 0 0 15px rgb(168, 168, 168);
+    background-color: #fff;
+    padding: 16px;
+    font-size: 20px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 16px;
+    right: 28px;
+    bottom: 34px;
+    z-index: 2;
+}
+
+#knot-section a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+#knot-section i {
+    text-align: center;
+    
+} */
